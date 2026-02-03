@@ -12,38 +12,38 @@ header {
     height: 72px;
 }
 
-.header_left {
+header .header_left {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.header_left_logo {
+header .header_left .header_left_logo {
     display: flex;
     align-items: center;
 }
 
-.header_left_logo_text {
+header .header_left_logo_text {
     text-transform: uppercase;
 }
 
-.header_left_items {
+header .header_left .header_left_items {
     margin-left: 20px;
     display: flex;
     align-items: center;
 }
 
-.header_left_items_container {
+header .header_left .header_left_items .header_left_items_container {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.header_left_items_container__item {
+header .header_left .header_left_items .header_left_items_container {
     padding: 0 17px;
 }
 
-.header_left_items_container__item svg {
+header .header_left .header_left_items .header_left_items_container .header_left_items_container__item svg {
     height: 24px;
     min-width: 24px;
     vertical-align: middle;
@@ -52,31 +52,31 @@ header {
     left: -5px;
 }
 
-.header_right {
+header .header_right {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.header_right .header_right_idioma {
+header .header_right .header_right_idioma {
     display: flex;
     align-items: center;
     background-color: transparent;
     border: none;
 }
 
-.header_right .header_right_idioma .header_right_idioma__img {
+header .header_right .header_right_idioma .header_right_idioma__img {
     width: 30px;
 }
 
-.header_right .header_right_idioma .header_right_idioma_text {
+header .header_right .header_right_idioma .header_right_idioma_text {
     margin-left: 5px;
     margin-right: 10px;
     font-weight: 800;
     font-size: 16px;
 }
 
-.header_right .header_right_cuenta {
+header .header_right .header_right_cuenta {
     margin-left: 20px;
     background-color: #ffffff;
     padding: 15px;
@@ -86,30 +86,30 @@ header {
     border: 1px solid black;
 }
 
-.header_mobile{
+header .header_mobile{
     display: none;
 }
 
-.header_mobile button {    
+header .header_mobile button {    
     border: none;
     background-color: transparent;
 }
 
-.header_mobile button i {    
+header .header_mobile button i {    
     font-size: 26px;
 }
 
 @media screen and (max-width: 1080px) {
-    .header_left_items_container__item {
+    header .header_left .header_left_items .header_left_items_container .header_left_items_container__item {
         padding: 0 5px;
     }
 }
 
 @media screen and (max-width: 970px)  {
-    .header_right, .header_left_items {
+    header .header_right, header .header_left .header_left_items {
         display: none;
     }
-    .header_mobile {
+    header .header_mobile {
         display: block;
     }
 }
