@@ -5,9 +5,22 @@
     --primary-color-400: #e3dcfc;
     --primary-color-600: #471ea7;
     --primary-color-700: #301c6b;
+    --primary-color-750: #1e1345;
     --primary-color-800: #000000;
 
     --secondary-color-500: #0bb394;
+
+    --padding-section-default: 60px 80px;
+    --padding-section-1550px: 40px 45px;
+    --padding-section-768px: 30px 30px;
+    --padding-section-480px: 20px 15px;
+
+    --margin-section-default: 0px 152px;
+    --margin-section-1550px: 0px 70px;
+    --margin-section-768px: 0px 30px;
+    --margin-section-480px: 0px 5px;
+
+    --font-size-500: 16px
 }
 
 
@@ -22,8 +35,4 @@
 a {
     text-decoration: none;
     color: var(--primary-color-800);
-}
-
-main {
-    padding: 36px 0px 96px;
 }
