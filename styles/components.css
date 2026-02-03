@@ -130,6 +130,7 @@ main .section_hero .section_hero__container {
     margin: 0px 152px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -206,12 +207,60 @@ main .section_hero .section_hero__container .section_hero__container-left .secti
     letter-spacing: 1px;
 }
 
-main .section_hero .section_hero__container .section_hero__container-right {
-    max-width: 60%;
+main .section_hero .section_hero__container .section_hero__container-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-main .section_hero .section_hero__container .section_hero__container-right img {
-    width: 100%;
+@media screen and (max-width:1550px) {
+    main .section_hero .section_hero__container {
+        padding: 0px 60px;
+        margin: 0px 70px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    main .section_hero .section_hero__container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main .section_hero .section_hero__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 30px;
+        margin: 0px 50px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    main .section_hero .section_hero__container {
+        padding: 0px 15px;
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    main .section_hero .section_hero__container .section_hero__container-left .section_hero__container-left_buttons .section_hero__container-left_buttons__start_now, main .section_hero .section_hero__container .section_hero__container-left .section_hero__container-left_buttons .section_hero__container-left_buttons__countdown {
+        width: 140px;
+        padding: 8px 18px;
+        height: min-content;
+        font-size: 14px;
+    }
+    .section_hero__container-left_buttons__start_now, main .section_hero .section_hero__container .section_hero__container-left .section_hero__container-left_buttons .section_hero__container-left_buttons__countdown {
+        width: min-content;
+    }
+    main .section_hero .section_hero__container .section_hero__container-left .section_hero__container-left_buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
 }
 
 /* FIN SECTION HERO */
