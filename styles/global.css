@@ -2,7 +2,9 @@
     --primary-color-500: #673de6;
     --primary-color-100: #ffffff;
     --primary-color-200: #f5f6ff;
+    --primary-color-300: #e6e6e6;
     --primary-color-400: #e3dcfc;
+    --primary-color-450: #646466;
     --primary-color-600: #471ea7;
     --primary-color-700: #301c6b;
     --primary-color-750: #1e1345;
@@ -13,7 +15,8 @@
     --padding-section-default: 60px 80px;
     --padding-section-1550px: 40px 45px;
     --padding-section-768px: 30px 30px;
-    --padding-section-480px: 20px 15px;
+    --padding-section-480px: 30px 15px;
+    --padding-section-400px: 30px 13px;
 
     --margin-section-default: 0px 152px;
     --margin-section-1550px: 0px 70px;
