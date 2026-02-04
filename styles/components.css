@@ -394,14 +394,6 @@ main .section_hero .section_hero__container .section_hero__container-right img {
     align-items: center;
 }
 
-.footer_container .footer_container__top .footer_container__top-logo {
-
-}
-
-.footer_container .footer_container__top .footer_container__top-rrss {
-
-}
-
 .footer_container .footer_container__top .footer_container__top-rrss .footer_container__top-rrss__list, .footer_container .footer_container__middle .footer_container__middle-cards .footer_container__middle-cards__list {
     display: flex;
     flex-direction: row;
