@@ -3,6 +3,7 @@
     --primary-color-100: #ffffff;
     --primary-color-200: #f5f6ff;
     --primary-color-300: #e6e6e6;
+    --primary-color-350: #f8f9fa;
     --primary-color-400: #e3dcfc;
     --primary-color-450: #646466;
     --primary-color-600: #471ea7;
@@ -42,4 +43,8 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+footer {
+    background-color: var(--primary-color-350);
 }
