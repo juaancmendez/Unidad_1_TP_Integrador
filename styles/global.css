@@ -23,7 +23,7 @@
     --margin-section-768px: 0px 30px;
     --margin-section-480px: 0px 5px;
 
-    --font-size-500: 16px
+    --font-size-500: 16px;
 }
 
 
@@ -38,4 +38,8 @@
 a {
     text-decoration: none;
     color: var(--primary-color-800);
+}
+
+ul {
+    list-style-type: none;
 }

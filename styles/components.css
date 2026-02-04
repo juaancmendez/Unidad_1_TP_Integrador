@@ -37,7 +37,6 @@ header .header_left .header_left_items {
 header .header_left .header_left_items .header_left_items_container {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
     gap: 30px;
 }
 
@@ -383,5 +382,79 @@ main .section_hero .section_hero__container .section_hero__container-right img {
 }
 
 /* FIN SECTION MIGRATION */
+
+/* INICIO FOOTER */
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-section-default);
+    margin: var(--margin-section-default);
+    gap: 15px;
+}
+
+.footer_container .footer_container__top, .footer_container .footer_container__middle, .footer_container .footer_container__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_container .footer_container__top .footer_container__top-logo {
+
+}
+
+.footer_container .footer_container__top .footer_container__top-rrss {
+
+}
+
+.footer_container .footer_container__top .footer_container__top-rrss .footer_container__top-rrss__list, .footer_container .footer_container__middle .footer_container__middle-cards .footer_container__middle-cards__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_container .footer_container__top .footer_container__top-rrss .footer_container__top-rrss__list {
+    gap: 20px;
+    font-size: 25px;
+}
+
+.footer_container .footer_container__middle .footer_container__middle-cards .footer_container__middle-cards__list {
+    gap: 5px;
+}
+
+.footer_container .footer_container__middle .footer_container__middle-cards .footer_container__middle-cards__list .footer_container__middle-cards__list-card img {
+    width: 60px;
+    height: 40px;
+    border: 1px solid var(--primary-color-400);
+    border-radius: 6px;
+}
+
+.footer_container .footer_container__middle .footer_container__middle-cards .footer_container__middle-cards__list .footer_container__middle-cards__list-card a {
+    font-weight: 800;
+    color: var(--primary-color-500);
+}
+
+.footer_container .footer_container__middle .footer_container__middle-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: var(--primary-color-500);
+}
+
+.footer_container .footer_container__middle .footer_container__middle-info a {
+    color: var(--primary-color-700);
+}
+
+.footer_container .footer_container__middle .footer_container__middle-info a:hover {
+    color: var(--primary-color-600);
+}
+
+.footer_container .footer_container__bottom {
+    padding-top: 30px;
+    color: var(--primary-color-700);
+}
+
+/* FIN FOOTER */
 
 /* FIN MAIN */
