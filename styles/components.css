@@ -537,6 +537,9 @@ main .section_hero .section_hero__container .section_hero__container-right img {
         padding: var(--padding-section-480px);
         margin: var(--margin-section-480px)
     }
+    .footer_container .footer_container__bottom {
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -554,6 +557,46 @@ main .section_hero .section_hero__container .section_hero__container-right img {
         width: auto;
     }
 }
+
+/* INICIO KODEE BUTTON */
+
+main .btn_kodee_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #683ee6;
+    padding: 5px 13px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 12px;
+    right: 20px;
+    cursor: pointer;
+}
+
+main .btn_kodee_container i {
+    font-size: 24px;
+}
+
+main .btn_kodee_container i, main .btn_kodee_container button, main .btn_kodee_container button span {
+    color: var(--primary-color-100);
+}
+
+main .btn_kodee_container button {
+    background-color: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    main .btn_kodee_container button span {
+        display: none;
+    }
+}
+
+/* FIN KODEE BUTTON */
 
 /* FIN FOOTER */
 
