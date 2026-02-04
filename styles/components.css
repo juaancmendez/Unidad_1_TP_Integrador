@@ -409,6 +409,10 @@ main .section_hero .section_hero__container .section_hero__container-right img {
     gap: 5px;
 }
 
+.footer_container .footer_container__top .footer_container__top-rrss__list .footer_container__top-rrss__list-item i:hover {
+    color: var(--primary-color-450);
+}
+
 .footer_container .footer_container__middle .footer_container__middle-cards .footer_container__middle-cards__list .footer_container__middle-cards__list-card img {
     width: 60px;
     height: 40px;
@@ -557,13 +561,17 @@ main .btn_kodee_container {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background-color: #683ee6;
+    background-color: var(--primary-color-500);
     padding: 5px 13px;
     border-radius: 50px;
     position: fixed;
     bottom: 12px;
     right: 20px;
     cursor: pointer;
+}
+
+main .btn_kodee_container:hover {
+    background-color: var(--primary-color-600);
 }
 
 main .btn_kodee_container i {
